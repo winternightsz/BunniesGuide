@@ -1,8 +1,9 @@
-export default function DancePPage() {
+const DancePPage = () => {
     return (
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold my-8">DanceP Page</h1>
       </div>
     );
   }
-  
+
+export default DancePPage;  
