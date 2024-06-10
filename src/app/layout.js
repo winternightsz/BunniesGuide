@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './globals.css';
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
       </head>
       <body className={`bg-gray-100 ${inter.className}`}>
-        <Header />
+        <Navbar />
         <main>{children}</main>
         <Footer />
       </body>

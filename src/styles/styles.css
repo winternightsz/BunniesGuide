@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ACROTSRG';
+    src: url('/fonts/ACROTSRG.ttf') format('truetype');
+  }
+  
+  .font-acrotsrg {
+    font-family: 'ACROTSRG', sans-serif;
+  }
+  

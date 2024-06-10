@@ -9,11 +9,22 @@
 @media (prefers-color-scheme: dark) {
    
 }
+@font-face {
+  font-family: ACROTSRG;
+      src: url('/fonts/ACROTSRG.ttf')  format("truetype");
+  }
 
 body {
-  
-}
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: #0a0a0a;
+  }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  }
+.font-acrotsrg{
+  font-family: ACROTSRG;
+}
 @layer utilities {
   
 }
