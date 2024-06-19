@@ -18,7 +18,7 @@ const NavLink = ({ href, children }) => {
 
 const Navbar = ({ isHomePage }) => {
   return (
-    <header className={`${isHomePage === 'sim' ? 'bg-transparent' : 'bg-gray-800'} text-white p-4`}>
+    <header className={`${isHomePage === 'sim' ? 'bg-transparent' : 'bg-indigo-300'} text-white p-4`}>
       <div className="container mx-auto flex items-center">
         {/* Esquerda */}
         <div className="flex-shrink-0">
