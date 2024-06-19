@@ -1,5 +1,4 @@
-import "./globals.css"
-
+import "./globals.css";
 
 export const metadata = {
   title: "Bunnies' Guide",
@@ -8,18 +7,15 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <> 
+    <>
       <div>
         <div className="home-background"></div>
         <div className="container mx-auto px-4 py-8 relative z-10">
-          <h1 className="text-6xl font-bold my-8 text-center font-acrotsrg text-neonBlue">Welcome to Bunnies' Guide!</h1>
+          <h1 className="text-6xl font-bold my-8 text-center text-chosenBlue font-acrotsrg">
+            Welcome to Bunnies' Guide!
+          </h1>
         </div>
       </div>
     </>
   );
 }
-
-
-
-
-

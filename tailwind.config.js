@@ -11,8 +11,8 @@ module.exports = {
     extend: {
       colors: {
         neonPink: '#FF007F',
-        neonBlue: '#00FFFF',
-        neonGreen: '#39FF14',
+        chosenBlue: '#051d5d',
+        chosenBlueHover: '#123eb7',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

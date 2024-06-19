@@ -9,7 +9,7 @@ const NavLink = ({ href, children }) => {
 
   return (
     <Link href={href}>
-      <span className={`px-3 py-2 rounded ${isActive ? 'bg-neonBlue text-white' : 'hover:bg-neonGreen text-white'}`}>
+      <span className={`px-3 py-2 rounded ${isActive ? 'bg-chosenBlue text-white' : 'hover:bg-chosenBlueHover text-white acrotsrg'}`}>
         {children}
       </span>
     </Link>
@@ -34,9 +34,9 @@ const Navbar = ({ isHomePage }) => {
         {/* Centro */}
         <div className="flex-grow flex justify-center">
           <nav className="flex space-x-6">
-            <a href="/">Home</a>
-            <a href="/Mvs">Mvs</a>
-            <a href="/DanceP">Dance Practices</a>
+          <NavLink href="/">Home</NavLink>
+            <NavLink href="/Mvs">Mvs</NavLink>
+            <NavLink href="/DanceP">Dance Practices</NavLink>
           </nav>
         </div>
       </div>
