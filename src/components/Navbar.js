@@ -16,9 +16,9 @@ const NavLink = ({ href, children }) => {
   );
 };
 
-const Navbar = () => {
+const Navbar = ({ isHomePage }) => {
   return (
-    <header className="bg-neonPink text-white p-4">
+    <header className={`${isHomePage === 'sim' ? 'bg-transparent' : 'bg-gray-800'} text-white p-4`}>
       <div className="container mx-auto flex items-center">
         {/* Esquerda */}
         <div className="flex-shrink-0">
@@ -34,9 +34,9 @@ const Navbar = () => {
         {/* Centro */}
         <div className="flex-grow flex justify-center">
           <nav className="flex space-x-6">
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/Mvs">Mvs</NavLink>
-            <NavLink href="/DanceP">DanceP</NavLink>
+            <a href="/">Home</a>
+            <a href="/Mvs">Mvs</a>
+            <a href="/DanceP">Dance Practices</a>
           </nav>
         </div>
       </div>
