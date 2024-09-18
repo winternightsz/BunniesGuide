@@ -37,6 +37,7 @@ const Navbar = ({ isHomePage }) => {
           <NavLink href="/">Home</NavLink>
             <NavLink href="/Mvs">Mvs</NavLink>
             <NavLink href="/DanceP">Dance Practices</NavLink>
+            <NavLink href="/Testes">Testes</NavLink>
           </nav>
         </div>
       </div>
